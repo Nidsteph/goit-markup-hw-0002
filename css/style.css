@@ -87,7 +87,6 @@ button.button {
 
 /* heading with goals */
 h3.goals {
-    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -98,7 +97,6 @@ h3.goals {
 }
 
 p.goal-details {
-    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
@@ -109,7 +107,6 @@ p.goal-details {
 /* what we do */
 
 h2.what-we-do {
-    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
