@@ -8,7 +8,47 @@ body {
     font-size: 14px;
 }
 
+/* defaults */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
 
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+address {
+    font-style: normal;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
 
 /* INDEX PAGE */
 
@@ -25,7 +65,6 @@ a.logo {
 
 /* navigator */
 a.navigator {
-    font-family: 'Roboto', 'sans-serif';
     font-style: normal;
     font-weight: 500;
     line-height: 16px;
@@ -39,7 +78,6 @@ a.navigator {
 
 /* header contact info */
 a.contact-info {
-    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     line-height: 16px;
@@ -54,7 +92,6 @@ a.contact-info {
 
 /* page heading */
 h1.page-heading {
-    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
@@ -67,7 +104,6 @@ h1.page-heading {
 
 /* button */
 button.button {
-    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -89,7 +125,6 @@ button.button {
 h3.goals {
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -98,7 +133,6 @@ h3.goals {
 
 p.goal-details {
     font-style: normal;
-    font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.03em;
     color: #757575;
@@ -119,7 +153,6 @@ h2.what-we-do {
 
 /* Our Team */
 h2.our-team {
-    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -132,7 +165,6 @@ h2.our-team {
 
 
 h3.team-member {
-    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -143,7 +175,6 @@ h3.team-member {
 }
 
 p.job {
-    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -157,20 +188,15 @@ p.job {
 /* footer */
 
 a.map {
-    font-family: 'Roboto', sans-serif;
     font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
 
 a.contact-info-footer {
-    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
@@ -197,7 +223,6 @@ a.logo {
 
 /* navigator */
 a.navigator {
-    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     line-height: 16px;
@@ -220,7 +245,6 @@ ul.contact-info {
 /* horizontal button list */
 
 li.buttons.list-of-buttons {
-    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -237,7 +261,6 @@ li.buttons ul:hover {
 
 /* Text under images */
 h2.headings {
-    font-family: 'Roboto', 'sans-serif';
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -247,7 +270,6 @@ h2.headings {
 }
 
 p.headings-text {
-    font-family: 'Roboto', 'sans-serif';
     font-style: normal;
     font-size: 16px;
     line-height: 30px;
@@ -257,7 +279,6 @@ p.headings-text {
 
 /* footer */
 a.map {
-    font-family: 'Roboto', 'sans-serif';
     font-style: normal;
     line-height: 24px;
     letter-spacing: 0.03em;
@@ -265,7 +286,6 @@ a.map {
 }
 
 a.contact-info-footer {
-    font-family: 'Roboto', 'sans-serif';
     font-style: normal;
     line-height: 24px;
     letter-spacing: 0.03em;
