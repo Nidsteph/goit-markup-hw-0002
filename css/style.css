@@ -63,7 +63,7 @@ a.logo {
 }
 
 /* navigator */
-a.navigator {
+.navigator {
     font-style: normal;
     font-weight: 500;
     line-height: 16px;
@@ -77,7 +77,7 @@ a.navigator {
 }
 
 /* header contact info */
-a.contact-info {
+.contact-info {
     font-style: normal;
     font-weight: 500;
     line-height: 16px;
@@ -119,6 +119,11 @@ h1.page-heading {
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+}
+
+/*BACKGROUND OF THE TITLE*/
+.page-head {
+    background-color: #2f303a;
 }
 
 
@@ -164,6 +169,9 @@ h2.our-team {
     color: #212121;
 }
 
+.our-team-background {
+    background-color: #f5f4fa;
+}
 
 
 h3.team-member {
@@ -204,7 +212,9 @@ a.contact-info-footer {
     color: rgba(255, 255, 255, 0.6);
 }
 
-
+.footer-background {
+    background-color: #2f303a;
+}
 
 
 
@@ -213,7 +223,6 @@ a.contact-info-footer {
 
 /*logo*/
 a.logo {
-    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
@@ -246,19 +255,16 @@ ul.contact-info {
 
 
 /* buttons of portfolio */
-buttons.buttons {
+.list-of-buttons {
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
     border: none;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.03em;
     color: #212121;
+    background-color: #F5F4FA;
+    border-radius: 4px;
 }
 
 .list-of-buttons:hover {
