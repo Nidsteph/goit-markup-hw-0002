@@ -93,7 +93,7 @@ a.logo {
     color: #757575;
 }
 
-.contact-info li a:hover {
+.contact-info:hover {
     color: #2196F3;
 }
 
