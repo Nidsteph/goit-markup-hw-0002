@@ -51,6 +51,7 @@ address {
 
 /* INDEX PAGE */
 
+
 /*logo*/
 a.logo {
     font-style: normal;
@@ -61,6 +62,7 @@ a.logo {
     letter-spacing: 0.03em;
     color: #2196F3;
 }
+
 
 
 /* navigator */
@@ -242,19 +244,6 @@ a.logo {
 }
 
 
-/* navigator */
-a.navigator {
-    font-style: normal;
-    font-weight: 500;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    color: #212121;
-}
-
-.navigator li a:hover {
-    color: #2196F3;
-}
-
 /* contact on the header */
 ul.contact-info {
     font-style: normal;
@@ -275,20 +264,22 @@ ul.contact-info {
     border: none;
     background-color: #F5F4FA;
     cursor: pointer;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
-        0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .list-of-buttons:hover {
     background-color: #2196F3;
     color: #FFFFFF;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+        0px 1px 2px rgba(0, 0, 0, 0.08),
+        0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .filter-current {
     background-color: #2196F3;
     color: white;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
-        0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+        0px 1px 2px rgba(0, 0, 0, 0.08),
+        0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 /* Text under images */
